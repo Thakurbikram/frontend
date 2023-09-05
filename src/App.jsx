@@ -10,6 +10,7 @@ import EventHandling from './components/EventHandling';
 import { StateManagement } from './components/StateManagement';
 import { Post } from './components/Post';
 import Todo from './components/Todo';
+import ProductList from './components/ProductList';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/state" element={ <StateManagement /> } />
         <Route path="/post" element={ <Post /> } />
         <Route path="/todo" element={ <Todo /> } />
+        <Route path="/list" element={ <ProductList /> } />
         <Route path="*" element={ <NotFound /> } />
 
       </Routes>
